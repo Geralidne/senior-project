@@ -29,6 +29,7 @@
         font-family: Fantasy;
         background-color: #f5f5f5;
       }
+
 </style>
 
 </head>
@@ -40,7 +41,7 @@
       <img src="images/圖片1.png" width="100" alt="" style="vertical-align:middle"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><span style="font-size:2em;color:forestgreen">產品</span></b>
       <b><span style="font-size:2em;color:darkgreen">碳排</span></b>
       <b><span style="font-size:2em;color:grey;">計算器</span></b>
-     &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  
         
 
@@ -62,15 +63,15 @@
     <!-- Main content section -->
     <main>
         <section class="container">
-            <h1 class="text-center mb-5">計算面膜碳排</h1>
+            <h1 class="text-center mb-5">計算保養品碳排</h1>
             <form>
                 <div class="form-group">
                     <label for="product-type">產品種類</label>
                     <select class="form-control" id="product-type" name="product-type">
-                        <option value="foundation">面膜1</option>
-                        <option value="mascara">面膜2</option>
-                        <option value="lipstick">面膜3</option>
-                        <option value="eyeliner">面膜4</option>
+                        <option value="makeup1">保養品1</option>
+                        <option value="makeup2">保養品2</option>
+                        <option value="makeup3">保養品3</option>
+                        <option value="makeup4">保養品4</option>
                     </select>
                 </div>
                 
@@ -83,8 +84,8 @@
                     <label for="product-packaging">包裝</label>
                     <select class="form-control" id="product-packaging" name="product-packaging">
                         <option value="plastic">塑膠</option>
-                        <option value="paperbox">紙盒</option>
-                        <option value="bag">紙袋</option>
+                        <option value="Box">紙盒</option>
+                        <option value="paperbag">紙袋</option>
                     </select>
                     <br>
                     <div class="form-group">

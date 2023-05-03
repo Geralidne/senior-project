@@ -2,7 +2,7 @@
 <html lang=' zh-TW'>
 <head>
 <meta charset="utf-8"/>
-<title>化妝品碳盤查</title>
+<title>員工資料編輯</title>
 <meta http-equiv="refresh" content="60" />
 
 <style>
@@ -103,7 +103,7 @@ body {
 
     </form>
     
-    <div id="copyright"><h4><span style="color:grey;">Copyright © 2023 京漾生技事業股彬有限公司</span></h4></div>
+    <div id="copyright"><h4><span style="color:grey;">Copyright © 2023 A事業股彬有限公司</span></h4></div>
     <style>
     #copyright {
   text-align: center;

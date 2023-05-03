@@ -13,15 +13,35 @@
         echo "<p>用戶名</p>";
       }}
       ?>
+      <header>
+<div>
+  <div>
+    <div style="background: #F0FFFF no-repeat center center; background-size: behind;">
+      <img src="images/圖片1.png" width="100" alt="" style="vertical-align:middle"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><span style="font-size:2em;color:forestgreen">產品</span></b>
+      <b><span style="font-size:2em;color:darkgreen">碳排</span></b>
+      <b><span style="font-size:2em;color:grey;">計算器</span></b>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+     
+
+    </div>
+  </div>
+</div>
+<hr>
+      </header>
 <!DOCTYPE html>
 <html lang='zh-TW'>
 <head>
+  
   <meta charset="utf-8"/>
   <meta http-equiv="refresh" content="60" />
   <title>員工登入系統</title>
   <div class="system_name">
   <h2>員工登入系統</h2>
+  
 </div>
+
+
 
 <div class="login_page">
   <div id="container1">
@@ -37,31 +57,21 @@
         <div class="tab"></div>
         <input type="submit" value="登入" class="submit">
       </form>
-      <h5 onclick="show_hide()">註冊帳號</h5>
+   
     </div><!-- login end-->
   </div><!-- container1 end-->
 </div><!-- login_page end-->
 
-<div class="signup_page">
-  <div id="container2">
-    <div class="signup">
-      <h3>註冊 Sign Up</h3>
-      <form action="">
-        <input type="text" id="fullname" name="fullname" placeholder="使用者全名" required>
-        <div class="tab"></div>
-        <input type="text" id="username2" name="username" placeholder="企業編碼" required>
-        <div class="tab"></div>
-        <input type="password" id="password2" name="password" placeholder="密碼" required>
-        <div class="tab"></div>
-        <input type="password" id="confirm_password" name="confirm_password" placeholder="確認密碼" required>
-        <div class="tab"></div>
-        <input type="submit" value="註冊" class="submit">
-      </form>
-      <h5 onclick="show_hide()">登入帳號
-
-
+ 
 
   <style>
+     body {
+        font-family: Fantasy;
+        background-color: #f5f5f5;
+      }
+    hr{
+      color: #F5F5F5;
+    }
     * {
       font-family: 微軟正黑體;
     }
@@ -151,9 +161,33 @@
       border: solid 1px #ccc;
       border-radius: 5px;
     }
+    
+    .login_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh +200px); /* 可以自行調整高度 */
+}
+
+a {
+      text-decoration: none;
+    }
+    a:hover {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
   </style>
 </head>
+
 <body>
+  
   <?php
     // 產生企業編碼與密碼
     $enterprise_code = uniqid('e');
@@ -184,6 +218,4 @@
         // 匹配失敗，顯示錯誤消息
         echo "<p>用戶名或密碼不正確，請重新輸入。</p>";
       }
-      
     }
-   
